@@ -17,10 +17,10 @@
         Console.WriteLine($"{a} somado com {b} é {resultado}");
 
 
-        Console.ForegroundColor = ConsoleColor.White;
+        
         Console.WriteLine("\nPressione uma tecla para continuar...");
         Console.ReadKey();
-        Console.ResetColor();
+        
 
         return;
     }
@@ -40,10 +40,10 @@
 
         Console.WriteLine($"{a} subtraindo {b} é {resultado}");
 
-        Console.ForegroundColor = ConsoleColor.White;
+        
         Console.WriteLine("\nPressione uma tecla para continuar...");
         Console.ReadKey();
-        Console.ResetColor();
+        
 
         return;
     }
@@ -64,10 +64,10 @@
 
         Console.WriteLine($"{a} multiplicado por {b} é {resultado}");
 
-        Console.ForegroundColor = ConsoleColor.White;
+      
         Console.WriteLine("\nPressione uma tecla para continuar...");
         Console.ReadKey();
-        Console.ResetColor();
+        
 
         return;
     }
@@ -86,9 +86,9 @@
 
         if (b == 0)
         {
-            Console.BackgroundColor = ConsoleColor.DarkRed;
+           
             Console.WriteLine("\nNão é possível dividir por zero.");
-            Console.ResetColor();
+            
         }
         else
         {
@@ -97,10 +97,10 @@
             Console.WriteLine($"{a} dividido por {b} é {resultado}");
         }
 
-        Console.ForegroundColor = ConsoleColor.White;
+        
         Console.WriteLine("\nPressione uma tecla para continuar...");
         Console.ReadKey();
-        Console.ResetColor();
+        
         return;
     }
     public static void CalcularExponenciacao()
@@ -116,10 +116,10 @@
 
         Console.WriteLine($"{numero} ao quadrado é:{potencia}");
 
-        Console.ForegroundColor = ConsoleColor.White;
+        
         Console.WriteLine("\nPressione uma tecla para continuar...");
         Console.ReadKey();
-        Console.ResetColor();
+        
         return;
     }
 

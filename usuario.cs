@@ -9,8 +9,8 @@ Console.WriteLine("[-] Subtração");
 Console.WriteLine("[x] Multiplicação");
 Console.WriteLine("[/] Divisão");
 Console.WriteLine("[%] porcentagem ");
-Console.WriteLine("[e] Exponenciação");
-Console.WriteLine("[r] radiciação");
+Console.WriteLine("[E] Exponenciação");
+Console.WriteLine("[R] radiciação");
 
 Console.Write("\nSelecione a operação desejada: ");
 
@@ -50,12 +50,11 @@ switch (opcaoDesejada)
         Codigo.CalcularPorcentagem();
         break;
 }
-Console.BackgroundColor = ConsoleColor.DarkBlue;
-Console.ForegroundColor = ConsoleColor.White;
-Console.WriteLine("PROGAMA FEITO POR THIAGO LOPES PEREIRA-1I3-");
+Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.WriteLine("programa feito por Thiago Lopes Periera-1I3-");
 Console.ResetColor();
 
 
-Console.ForegroundColor = ConsoleColor.White;
+Console.ForegroundColor = ConsoleColor.DarkBlue;
 Console.WriteLine("OBRIGADO POR UTILIZAR MINHA CALCULADORA");
 Console.ResetColor();
